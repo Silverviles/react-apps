@@ -1,0 +1,21 @@
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.todo-item-container{
+    display: flex;
+}
+
+.todo-item-text{
+    padding-left: 16px;
+    color: #404040;
+    font-size: 22px;
+}
+
+.todo-item-delete{
+    cursor: pointer;
+    padding-right: 25px;
+}
